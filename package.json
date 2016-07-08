@@ -1,6 +1,6 @@
 {
-  "name": "angular2-webpack",
-  "version": "1.0.1",
+  "name": "angular2-materialize",
+  "version": "1.0.0",
   "scripts": {
     "start-dev": "concurrently \"tsc -w\" \"nodemon app.js\"",
     "postinstall": "typings install & tsc"
