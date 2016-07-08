@@ -1,0 +1,15 @@
+.idea
+*.iml
+node_modules
+typings
+npm-debug.log
+*.js.*
+*.js
+frontend/**/*.js
+frontend/**/*.config.js
+backend/**/*.js.
+
+!*.json
+!config/*.js
+!frontend/**/*.config.js
+!app.js
