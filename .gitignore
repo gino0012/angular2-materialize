@@ -1,0 +1,12 @@
+.idea
+*.iml
+node_modules
+typings
+report
+coverage
+npm-debug.log
+frontend/**/*.js*
+backend/**/*.js*
+configs/**/*.js*
+
+!frontend/**/*.config.js
