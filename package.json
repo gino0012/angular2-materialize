@@ -2,8 +2,9 @@
   "name": "angular2-materialize",
   "version": "1.0.0",
   "scripts": {
+    "build": "tsc",
     "dev": "concurrently \"tsc -w\" \"nodemon app.js\" \"karma start\"",
-    "postinstall": "typings install & tsc"
+    "postinstall": "typings install"
   },
   "engines": {
     "node": "6.2.2",
